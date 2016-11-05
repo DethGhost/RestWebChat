@@ -4,9 +4,7 @@
 <jsp:include page="template/header.jsp"/>
 <body>
 <s:url var="formUrl" value="/registration-handler"/>
-<sf:form modelAttribute="reg" action="${formUrl}">
-
-    <fieldset>
+<sf:form modelAttribute="user" action="${formUrl}">
         <div>
             <label for="name"><s:message code="reg.name"/>:</label>
             <sf:input path="name"/>
@@ -25,9 +23,6 @@
         <div class="submit">
             <button type="submit" name="save"><s:message code="reg.submit"/></button>
         </div>
-
-    </fieldset>
-
 </sf:form>
 </body>
 </html>

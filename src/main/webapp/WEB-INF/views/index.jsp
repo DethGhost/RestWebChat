@@ -6,7 +6,7 @@
     <%--<button>Sign In</button>--%>
 <%--</a>--%>
 &ensp;
-<a href="${s:mvcUrl('RC#getRegisteration')}" title="Registration page">
+<a href="/registration" title="Registration page">
     <button>Register</button>
 </a>
 </body>
