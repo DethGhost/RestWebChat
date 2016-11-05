@@ -17,8 +17,9 @@ public class ChatUser {
     private String login;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
-    @JoinColumn(name = "role_id", nullable = false)
+    @JoinColumn(name = "role_id")
     private Role role;
+
     @Column(name = "password", length = 30)
     private String password;
 
