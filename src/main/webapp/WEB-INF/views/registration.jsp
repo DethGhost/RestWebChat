@@ -11,6 +11,7 @@
             <sf:errors path="name" cssClass="error"/>
         </div>
         <div>
+                ${alreadyexist}
             <label><s:message code="reg.login"/>: </label>
             <sf:input path="login"/>
             <sf:errors path="login" cssClass="error"/>

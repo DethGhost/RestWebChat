@@ -13,14 +13,14 @@ public class ChatUser {
     @Column(name = "name", length = 30)
     private String name;
 
-    @Column(name = "login", length = 30)
+    @Column(name = "login", length = 30, unique = true)
     private String login;
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "role_id", nullable = false)
     private Role role;
-
-
+    @Column(name = "password", length = 30)
+    private String password;
 
     public Role getRole() {
         return role;
@@ -61,9 +61,6 @@ public class ChatUser {
     public void setPassword(String password) {
         this.password = password;
     }
-
-    @Column(name = "password", length = 30)
-    private String password;
 
 
 }

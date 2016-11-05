@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ua.deth.webChat</groupId>
@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-framework-version>4.3.3.RELEASE</spring-framework-version>
         <spring.data>1.3.4.RELEASE</spring.data>
-        <hb.manager>4.2.5.Final</hb.manager>
+        <hb.manager>5.2.2.Final</hb.manager>
     </properties>
 
 
