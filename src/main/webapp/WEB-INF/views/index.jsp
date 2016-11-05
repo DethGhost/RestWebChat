@@ -5,9 +5,9 @@
 <%--<a href="${s:mvcUrl('LA#index')}" title="Login Page">--%>
     <%--<button>Sign In</button>--%>
 <%--</a>--%>
-<%--&ensp;--%>
-<%--<a href="${s:mvcUrl('R#index')}" title="Registration page">--%>
-    <%--<button>Register</button>--%>
-<%--</a>--%>
+&ensp;
+<a href="${s:mvcUrl('RC#getRegisteration')}" title="Registration page">
+    <button>Register</button>
+</a>
 </body>
 </html>
