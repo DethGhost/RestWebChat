@@ -2,9 +2,9 @@
 <jsp:include page="template/header.jsp"/>
 <body>
 &ensp;
-<%--<a href="${s:mvcUrl('LA#index')}" title="Login Page">--%>
-    <%--<button>Sign In</button>--%>
-<%--</a>--%>
+<a href="/login" title="Login Page">
+    <button>Sign In</button>
+</a>
 &ensp;
 <a href="/registration" title="Registration page">
     <button>Register</button>
